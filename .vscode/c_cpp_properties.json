@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "root_fs/usr/lib/gcc/riscv64-linux-gnu/13/include/",
+                "root_fs/usr/include/riscv64-linux-gnu/c++/13",
+                "root_fs/usr/include/riscv64-linux-gnu",
+                "root_fs/usr/include/c++/13",
+                "root_fs/usr/include",
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "/usr/bin/riscv64-linux-gnu-g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
